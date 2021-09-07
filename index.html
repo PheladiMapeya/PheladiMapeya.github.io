@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script type="module" src="dist/app.js" defer></script>
+
+
+  </head>
+  <body>
+      <div class="container">
+            <div class="control">
+                <!-- <img class="is-rounded" src="weather.png" alt="weather-icon"> -->
+                <h1 class="title" id="titleH"> Weather </h1>
+            </div>
+            
+            <div class="field">
+                <label class="label is-large" id="location1">Johannesburg</label> 
+                    <p>
+                      <span id="temp-value1"></span><span id="temp-unit">&#176C</span>
+                    </p>     
+            </div> 
+
+            <div class="field">
+                <label class="label is-large" id="location2">Durban</label> 
+                  <p>
+                    <span id="temp-value2"></span><span id="temp-unit">&#176C</span>
+                  </p>                
+            </div>
+
+            <div class="field">
+                <label class="label is-large" id="location3">Cape Town</label> 
+                  <p>
+                    <span id="temp-value3"></span><span id="temp-unit">&#176C</span>
+                  </p>    
+            </div> 
+      </div>
+  </body>
+</html>
