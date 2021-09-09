@@ -1,0 +1,51 @@
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+section {padding: 30px 0;}
+
+#weatherIcon,
+#weatherIcon1,
+#weatherIcon2 {
+  padding-left: 5px;
+  size: 5px;
+  max-width: 50%;
+  height: auto;
+
+}
+#location1,
+#location2,
+#location3 {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+#temp-value1,
+#temp-value2,
+#temp-value3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+
+}
+#temp-unit {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+#desc,
+#desc1,
+#desc2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+}
+.control {
+    margin-top: 10px;
+}
+
+}
+   

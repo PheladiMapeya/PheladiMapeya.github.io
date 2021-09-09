@@ -6,51 +6,68 @@
 
   .container {
       border-style: ridge;
-      background-image:url("weather.jpg");
+      background-image:url("/resources/images/weather.jpg");
       padding: 15px;
   }
 
   .title {
-
       margin-bottom: 15px;
-      text-align: center;     
+      text-align: center;         
   }
 
   #titleH {
     color: #fff;
   }
-
-  .label {
-      margin-top: 30px;
-      margin-bottom: 35px;
-      padding-left: 10px;
-      font-weight: bold;
-      color: #fff;
-      
-  }
   #location1,
   #location2,
   #location3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bold;
     color: #fff;
   }
-
-  p {
-    float: right;
-    margin-top: 10px;
-    margin-bottom: 35px;
-    padding-bottom: 5px;
-    font-size: 20px;
-    position: relative;
-    font-weight: bold;
-    top: -35px;
+  #location2 {
+    padding-left: 35px;
   }
   #temp-value1,
   #temp-value2,
-  #temp-value3,
+  #temp-value3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 50px;
+    margin-bottom: 10px;
+
+  }
   #temp-unit {
+    font-size: 25px;
+    font-weight: bold;
     color: #fff;
   }
- 
+
+  #weatherIcon,
+  #weatherIcon1,
+  #weatherIcon2 {
+    padding-left: 30px;
+  }
+  #desc,
+  #desc1,
+  #desc2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 50px;
+  }
   .control {
       margin-top: 30px;
   }
+  .column span {
+    vertical-align:middle;
+  }
+
+
+  
+
+

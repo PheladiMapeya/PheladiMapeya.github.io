@@ -3,40 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Weather</title>
+    <title>Weather For Johannesburg,Durban And Cape Town</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- <link rel="image" href="http://openweathermap.org/img/wn/04d@2x.png"> -->
     <script type="module" src="dist/app.js" defer></script>
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png"> -->
+        
 
 
   </head>
   <body>
+    <section class="section">
       <div class="container">
             <div class="control">
-                <!-- <img class="is-rounded" src="weather.png" alt="weather-icon"> -->
                 <h1 class="title" id="titleH"> Weather </h1>
             </div>
-            
-            <div class="field">
-                <label class="label is-large" id="location1">Johannesburg</label> 
-                    <p>
-                      <span id="temp-value1"></span><span id="temp-unit">&#176C</span>
-                    </p>     
-            </div> 
+              <div class="columns is-mobile">
 
-            <div class="field">
-                <label class="label is-large" id="location2">Durban</label> 
+                <div class="column">
+                  <label class="label is-large" id="location1">Johannesburg</label> 
+                  <p>
+                    <span id="temp-value1"></span><span id="temp-unit">&#176C</span>
+                    <div class="icn"><img id="weatherIcon"> </div>
+                    <div class="description" id="desc"></div>
+                  </p> 
+                </div> 
+              
+                <div class="column">
+                  <label class="label is-large" id="location2">Durban</label> 
                   <p>
                     <span id="temp-value2"></span><span id="temp-unit">&#176C</span>
-                  </p>                
-            </div>
-
-            <div class="field">
-                <label class="label is-large" id="location3">Cape Town</label> 
+                    <div class="icn"><img id="weatherIcon1"> </div>
+                    <div class="description" id="desc1"></div>
+                  </p>  
+                </div> 
+              
+                <div class="column">
+                  <label class="label is-large" id="location3">Cape Town</label> 
                   <p>
                     <span id="temp-value3"></span><span id="temp-unit">&#176C</span>
-                  </p>    
-            </div> 
+                    <div class="icn"><img id="weatherIcon2"> </div>
+                    <div class="description" id="desc2"></div>
+                  </p>  
+                </div>   
+              </div>
       </div>
+    </section>  
   </body>
 </html>
