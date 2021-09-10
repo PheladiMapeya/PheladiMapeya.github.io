@@ -18,8 +18,7 @@ window.addEventListener("load", () => {
             .then((response) => {
             return response.json();
         })
-            .then(data => {
-            console.log(data);
+        .then(data => {
             const { feels_like } = data.main;
             tempValue1.innerHTML = Math.round(feels_like - 273).toString();
             const { id, description } = data.weather[0];
@@ -70,13 +69,12 @@ window.addEventListener("load", () => {
         });
     }
     if (loc2) {
-        const API_URL1 = "http://api.openweathermap.org/data/2.5/weather?q=Durban&appid=02d9064b9ef20ab93d12b832adac539b";
+        const API_URL1 = "https://api.openweathermap.org/data/2.5/weather?q=Durban&appid=02d9064b9ef20ab93d12b832adac539b";
         fetch(API_URL1)
             .then((response) => {
             return response.json();
         })
-            .then(data => {
-            console.log(data);
+        .then(data => {
             const { feels_like } = data.main;
             tempValue2.innerHTML = Math.round(feels_like - 273).toString();
             const { id, description } = data.weather[0];
@@ -127,13 +125,12 @@ window.addEventListener("load", () => {
         });
     }
     if (loc3) {
-        const API_URL = "http://api.openweathermap.org/data/2.5/weather?q=cape town&appid=02d9064b9ef20ab93d12b832adac539b";
+        const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=cape town&appid=02d9064b9ef20ab93d12b832adac539b";
         fetch(API_URL)
             .then((response) => {
             return response.json();
         })
-            .then(data => {
-            console.log(data);
+        .then(data => {
             const { feels_like } = data.main;
             tempValue3.innerHTML = Math.round(feels_like - 273).toString();
             const { id, description } = data.weather[0];
