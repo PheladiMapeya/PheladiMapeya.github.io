@@ -14,7 +14,7 @@ let tempDesc2 = document.getElementById('desc2')!;
 
 window.addEventListener("load", () => {
     if(loc1) {
-        const API_URL = "http://api.openweathermap.org/data/2.5/weather?q=johannesburg&appid=02d9064b9ef20ab93d12b832adac539b"
+        const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=johannesburg&appid=02d9064b9ef20ab93d12b832adac539b"
 
 
         fetch(API_URL)
