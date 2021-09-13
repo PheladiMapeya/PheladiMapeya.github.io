@@ -16,7 +16,7 @@ describe("locate elements", () => {
         cy.get('#temp-value1')
         cy.get('#temp-value2')
         cy.get('#temp-value3')
-        cy.get('#temp-unit')
+        cy.get('#temp-unit') 
 
     })
     it("test joburg temperature", () => {
